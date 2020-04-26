@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.status(200).send('Hola mundo!!');
 });
 
-// Agregando comentario no deseado
+//Levantando el servidor 
 app.listen(PORT , () =>{
     console.log(`Servidor levantado en http://localhost:${PORT}`);
 });
